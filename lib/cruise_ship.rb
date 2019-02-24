@@ -7,5 +7,5 @@
 # }
 
 def select_winner(passengers)
-  passengers.find { | value | value.start_with?('A') }
+  passengers.find { | key, value | value.start_with?('A') }
 end
